@@ -1,0 +1,58 @@
+.hero {
+    padding: 0 0 115px;
+    margin-bottom: 60px;
+}
+
+.hero-main-wrapper {
+    background-color: #CCB2A3;
+    padding: 35px 0px 130px;
+}
+
+.hero-wrapper {
+    display: flex;
+    position: relative;
+}
+
+.hero-left {
+    width: 270px;
+    margin-top: 140px;
+}
+
+.hero-right {
+    margin-left: auto;
+}
+
+.hero-heading {
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 46px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0 0 60px;
+}
+
+.hero-heading-head {
+    color: #FF9619;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+
+.carusel {
+    width: 870px;
+    height: 617px;
+}
+
+.hero-slider {
+    position: absolute;
+    right: 0;
+    top: 60px;
+}

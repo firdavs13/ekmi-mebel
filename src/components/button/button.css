@@ -1,0 +1,21 @@
+.button {
+    padding: 12px 21px;
+    background-color: #FF9619;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: max-content;
+    text-transform: uppercase;
+    border: none;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.button:hover {
+    background-color: #5B5B5B;
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.numbers {
+    margin: 60px 0 0;
+}
+
+.numbers-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+
+.numbers-card {
+    padding: 18px 50px 18px 40px;
+    background-position: 0 0;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.numbers-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #343434;
+}
+
+.numbers-one {
+    background-image: url('../../assets/images/numbers-one.png');
+}
+
+.numbers-two {
+    background-image: url('../../assets/images/numbers-two.png');
+}
+
+.numbers-three {
+    background-image: url('../../assets/images/numbers-three.png');
+}
+
+.partners-heading {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+    color: #343434;
+}
+
+.partners-heading-head {
+    color: #FF9619;
+}

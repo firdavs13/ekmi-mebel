@@ -3,49 +3,49 @@ import { createGlobalStyle } from 'styled-components';
 //import fonts
 
 //  Raleway Extra Bold
-import RalewayExtraBoldWoff2 from '../assets/fonts/Raleway-ExtraBold.woff2';
-import RalewayExtraBoldWoff from '../assets/fonts/Raleway-ExtraBold.woff';
-import RalewayExtraBoldTtf from '../assets/fonts/Raleway-ExtraBold.ttf';
+import RalewayExtraBoldWoff2 from '@assets/fonts/Raleway-ExtraBold.woff2';
+import RalewayExtraBoldWoff from '@assets/fonts/Raleway-ExtraBold.woff';
+import RalewayExtraBoldTtf from '@assets/fonts/Raleway-ExtraBold.ttf';
 
 //  Raleway Medium
-import RalewayMediumWoff2 from '../assets/fonts/Raleway-Medium.woff2';
-import RalewayMediumWoff from '../assets/fonts/Raleway-Medium.woff';
-import RalewayMediumTtf from '../assets/fonts/Raleway-Medium.ttf';
+import RalewayMediumWoff2 from '@assets/fonts/Raleway-Medium.woff2';
+import RalewayMediumWoff from '@assets/fonts/Raleway-Medium.woff';
+import RalewayMediumTtf from '@assets/fonts/Raleway-Medium.ttf';
 
 //  Raleway SemiBold
-import RalewaySemiBoldWoff2 from '../assets/fonts/Raleway-SemiBold.woff2';
-import RalewaySemiBoldWoff from '../assets/fonts/Raleway-SemiBold.woff';
-import RalewaySemiBoldTtf from '../assets/fonts/Raleway-SemiBold.ttf';
+import RalewaySemiBoldWoff2 from '@assets/fonts/Raleway-SemiBold.woff2';
+import RalewaySemiBoldWoff from '@assets/fonts/Raleway-SemiBold.woff';
+import RalewaySemiBoldTtf from '@assets/fonts/Raleway-SemiBold.ttf';
 
 //  Raleway Light
-import RalewayLightWoff2 from '../assets/fonts/Raleway-Light.woff2';
-import RalewayLightWoff from '../assets/fonts/Raleway-Light.woff';
-import RalewayLightTtf from '../assets/fonts/Raleway-Light.ttf';
+import RalewayLightWoff2 from '@assets/fonts/Raleway-Light.woff2';
+import RalewayLightWoff from '@assets/fonts/Raleway-Light.woff';
+import RalewayLightTtf from '@assets/fonts/Raleway-Light.ttf';
 
 //  Raleway Bold
-import RalewayBoldWoff2 from '../assets/fonts/Raleway-Bold.woff2';
-import RalewayBoldWoff from '../assets/fonts/Raleway-Bold.woff';
-import RalewayBoldTtf from '../assets/fonts/Raleway-Bold.ttf';
+import RalewayBoldWoff2 from '@assets/fonts/Raleway-Bold.woff2';
+import RalewayBoldWoff from '@assets/fonts/Raleway-Bold.woff';
+import RalewayBoldTtf from '@assets/fonts/Raleway-Bold.ttf';
 
 //  Raleway Regular
-import RalewayRegularWoff2 from '../assets/fonts/Raleway-Regular.woff2';
-import RalewayRegularWoff from '../assets/fonts/Raleway-Regular.woff';
-import RalewayRegularTtf from '../assets/fonts/Raleway-Regular.ttf';
+import RalewayRegularWoff2 from '@assets/fonts/Raleway-Regular.woff2';
+import RalewayRegularWoff from '@assets/fonts/Raleway-Regular.woff';
+import RalewayRegularTtf from '@assets/fonts/Raleway-Regular.ttf';
 
 //  Open Sans Bold
-import OpenSansBoldWoff2 from '../assets/fonts/OpenSans-Bold.woff2';
-import OpenSansBoldWoff from '../assets/fonts/OpenSans-Bold.woff';
-import OpenSansBoldTtf from '../assets/fonts/OpenSans-Bold.ttf';
+import OpenSansBoldWoff2 from '@assets/fonts/OpenSans-Bold.woff2';
+import OpenSansBoldWoff from '@assets/fonts/OpenSans-Bold.woff';
+import OpenSansBoldTtf from '@assets/fonts/OpenSans-Bold.ttf';
 
 //  Open Sans Light
-import OpenSansLightWoff2 from '../assets/fonts/OpenSans-Light.woff2';
-import OpenSansLightWoff from '../assets/fonts/OpenSans-Light.woff';
-import OpenSansLightTtf from '../assets/fonts/OpenSans-Light.ttf';
+import OpenSansLightWoff2 from '@assets/fonts/OpenSans-Light.woff2';
+import OpenSansLightWoff from '@assets/fonts/OpenSans-Light.woff';
+import OpenSansLightTtf from '@assets/fonts/OpenSans-Light.ttf';
 
 //  Open Sans SemiBold
-import OpenSansSemiBoldWoff2 from '../assets/fonts/OpenSans-SemiBold.woff2';
-import OpenSansSemiBoldWoff from '../assets/fonts/OpenSans-SemiBold.woff';
-import OpenSansSemiBoldTtf from '../assets/fonts/OpenSans-SemiBold.ttf';
+import OpenSansSemiBoldWoff2 from '@assets/fonts/OpenSans-SemiBold.woff2';
+import OpenSansSemiBoldWoff from '@assets/fonts/OpenSans-SemiBold.woff';
+import OpenSansSemiBoldTtf from '@assets/fonts/OpenSans-SemiBold.ttf';
 
 
 export const GlobalStyles = createGlobalStyle `
@@ -181,7 +181,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 20px;
 }

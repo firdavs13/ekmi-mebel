@@ -1,0 +1,39 @@
+.header {
+    padding: 25px 0;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.select-lang {
+    width: max-content;
+    border: none;
+    outline-style: none;
+}
+
+.header-logo {
+    width: 216px;
+    height: 66px;
+}
+
+.nav-list {
+    width: 886px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #343434;
+}

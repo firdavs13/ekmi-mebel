@@ -1,0 +1,40 @@
+.brands {
+    margin: 120px 0 0;
+}
+
+.brands-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.brands-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.brands-bot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.brands-top-img {
+    width: 100%;
+    height: 90px;
+}
+
+.brands-bot-img {
+    width: 270px;
+    height: 270px;
+}
+
+.brand-bottom-element {
+    width: 364px;
+    height: 96px;
+}
